@@ -1,10 +1,13 @@
 # job_site
 Scrape job postings and host an interactive table of results
 
-- Uses selenium to scrape results
+- Uses selenium to scrape job postings
 - Uses a local LLM to parse key info from posting
 - Angular/Flask
 
+https://github.com/user-attachments/assets/ea213f75-f0ae-4309-9933-88a18fb2ce31
 
-https://github.com/user-attachments/assets/89a5a1a8-3e22-48f5-87b6-24116363d096
+
+
+
 
