@@ -1,0 +1,12 @@
+.visit-cell {
+    text-align: left; /* Align the content of the cell to the left */
+  }
+  
+.visit-icon {
+color: blue; /* Set the icon color to blue */
+}
+
+a.mat-icon-button {
+padding: 0; /* Remove default padding around the icon */
+}
+

@@ -1,0 +1,39 @@
+/* Structure */
+table {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    font-size: 1.25em;
+    width: 100%;
+}
+
+.mat-column-location {
+    width: 25%;
+    max-width: 25%;
+}
+
+.mat-column-job_title {
+    width: 25%;
+    max-width: 25%;
+}
+
+.mat-column-company_name {
+    width: 20%;
+    max-width: 20%;
+}
+
+.mat-column-job_type {
+    width: 10%;
+    max-width: 10%;
+}
+
+.mat-column-min_salary {
+    width: 10%;
+    max-width: 10%;
+}
+
+.mat-column-max_salary {
+    width: 10%;
+    max-width: 10%;
+}
