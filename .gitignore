@@ -171,3 +171,17 @@ cython_debug/
 .pypirc
 
 .DS_store
+
+venv
+
+server/venv/
+
+__pycache__/
+*.pyc
+*.pyo
+
+server/.pytest_cache/
+
+.vscode/
+
+*.log
