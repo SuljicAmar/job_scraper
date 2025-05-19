@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.12" # Adjust if needed
+          python-version: "3.12"
 
       - name: Install Dependencies
         run: |
@@ -29,3 +29,10 @@ jobs:
       - name: Run Tests
         working-directory: server
         run: PYTHONPATH=./ pytest
+
+      - name: Build and Push Docker Image
+        working-directory: server
+        run: |
+          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/job-scraper-backend:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/job-scraper-backend:latest
